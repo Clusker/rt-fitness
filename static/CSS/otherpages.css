@@ -1,0 +1,83 @@
+html, body {
+height:100%;
+margin:0;
+padding:0;
+}
+
+body, input, button, select, option, textarea {
+    font-family: sans-serif
+}
+body {
+    font-size: medium
+}
+input, button, select, option, textarea {
+    font-size: 100%;
+}
+
+.navbar-brand {
+  font-weight:bold;
+  font-style: oblique;
+  font-size: 26px;
+}
+
+H1 {
+  font-weight:bold;
+  font-style: oblique;
+  font-size: 5.5vw;
+}
+
+.about {
+    font-size: 20px;
+    color: #808080;
+}
+
+
+H2 {
+  font-weight:bold;
+  font-style: oblique;
+  font-size: 3.5vw;  
+}
+H4 {
+    font-weight:bold;
+}
+
+.author {
+    font-style: oblique;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #D3D3D3; /* old IE */
+    background-color: #D3D3D3; /* Modern Browsers */
+}
+
+/* Navbar positioning foo */
+.navbar-wrapper {
+    margin-top: 20px;
+}
+  
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.well{
+    left: 30px;
+}
+
+.blogbody {
+    text-align: justify
+}
+
+.foot {
+    text-align: center;
+}
+
+.img-circle {
+    margin:auto;
+}
