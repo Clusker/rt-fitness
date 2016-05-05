@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+    <meta name="description" content="Fitness page for PT - Ryan Taylor">
+    <meta name="author" content="Sam Clusker">
+    <link rel="icon" href="../images/icon.png">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link href="../static/CSS/carousel.css" rel="stylesheet">
+  </head>
+  
+  <style>
+    .relative {
+      position:relative;
+    }
+  </style>
+  
+  <body>
+<!-- NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">RT|Fitness</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="../static/HTML/onlinetraining.html">| Online Training |</a></li>
+          <li><a href="../static/HTML/supplements.html">| Supplements |</a></li>
+          <li><a href="../static/HTML/gymwear.html">| Gym Wear |</a></li>
+          <li><a href="../static/HTML/contactus.html">| Contact Us |</a></li>
+        </ul>
+      </div>
+    </nav>
+
+ 
+    
+
+ <!-- Carousel
+    ================================================== -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="item bg bg1">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 class="main">All New Workout Routines</h1>
+							<p class="main">
+							 We have provided you guys some insane workout routines designed to give you the biggest pump of your life.
+							 Hand crafted by our very own Ryan Taylor, learn the ways of Occulsion training - Click Below!
+							</p>
+							<p>
+								<a href="#" class="push_button" role="button">Join the Pump!</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item bg bg2">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 class="main">Online Training</h1>
+							<p class="main">Sign up to our online training programs hand-crafted around
+							   your needs and lifestyle! Click below to sing up for your FREE starter pack.</p>
+							<p>
+								<a href="onlinetraining.html" class="push_button" role="button">Sign Up Now!</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="item bg bg3">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1 class="main">We Are Recruiting!</h1>
+							<p class="main">See if you've got what it takes to be a part of the team and 
+							   potentially travel the world with us as we look to go global!</p>
+							<p>
+								<a href="#" class="push_button" role="button">Find Out More!</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button"
+			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
+			aria-hidden="true"></span> <span class="sr-only">Previous</span>
+		</a> <a class="right carousel-control" href="#myCarousel" role="button"
+			data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- /.carousel -->
+
+
+   <hr class="featurette-divider">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-right" src="../images/circle1.jpg">
+    <h2 class="featurette-heading">Who We Are.</h2>
+    <p class="lead">RT|Fitness initially started as one man and one ambition, to teach others the art of
+    fitness the correct way.<span class="text-muted"><br>Now we have grown to become one of the
+    faces of the industry!</span></p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-left" src="../images/circle2.jpg">
+    <h2 class="featurette-heading">What We Do.</h2>
+    <p class="lead">We provide personal training and online programs to just about anyone globally
+    <span class="text-muted"><br>We have also become involved in supplements and fitness attire!</span></p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-right" src="../images/circle3.jpg">
+    <h2 class="featurette-heading">Why We Do It.</h2>
+    <p class="lead">The why is the easy part, we love what we do.<span class="text-muted"><br>Not to mention,
+    we want to do it the right and natural way!</span></p>
+  </div>
+
+  <hr class="featurette-divider">
+  </body>
+
+
+      <!-- FOOTER -->
+      <footer>
+          <p class="foot">Copyright &copy; RT|Fitness Inc.</p>
+          <p class="foot"><a href="#">Back to top</a></p>
+      
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</html>
