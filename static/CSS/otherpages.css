@@ -20,6 +20,14 @@ input, button, select, option, textarea {
   font-size: 26px;
 }
 
+.navbar-brand-center {
+  font-weight:bold;
+  font-style: oblique;
+  font-size: 26px;
+  text-align: center;
+}
+
+
 H1 {
   font-weight:bold;
   font-style: oblique;

@@ -4,6 +4,15 @@ margin:0;
 padding:0;
 }
 
+.navbar-brand-center {
+  font-weight:bold;
+  font-style: oblique;
+  font-size: 26px;
+  text-align: center;
+}
+
+
+
 .carousel, .item, .active {
 height:100%;
 }
