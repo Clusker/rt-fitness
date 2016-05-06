@@ -1,88 +1,77 @@
 <!DOCTYPE html>
+<!-- defining the type of page and language --> 
 <html lang="en">
   <head>
     <meta charset="utf-8">
     
-    <!-- Ensure proper rendering and touch zooming -->
+<!-- Ensure proper rendering and touch zooming -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- jQuery library -->
+<!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     
     <meta name="description" content="Fitness page for PT - Ryan Taylor">
     <meta name="author" content="Sam Clusker">
-    <link rel="icon" href="../images/icon.png">
+    <title>RT|Fitness</title>
+    <link rel="icon" href="../static/images/icon.png">
     
-    <!-- Latest compiled and minified CSS -->
+<!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     
-    <!-- Latest compiled and minified JavaScript -->
+<!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <title>Carousel Template for Bootstrap</title>
 
-    <!-- Bootstrap core CSS -->
+<!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- My CSS -->
-    <link href="../static/CSS/otherpages.css" rel="stylesheet">
+<!-- My CSS -->
+    <link href="../CSS/otherpages.css" rel="stylesheet">
 
   </head>
-  
-  <style>
-    .relative {
-      position:relative;
-    }
-  </style>
-<body>
+
+  <body>
 <!-- NAVBAR -->
   <div id="wrapper">
     <div id="header">
      <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.html">RT|Fitness</a>
+<!-- creation of the collapsing dropdown button -->        
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
       </div>
+<!-- Creating the list within the collapsing button -->
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="onlinetraining.html">| Online Training |</a></li>
-          <li><a href="../static/HTML/supplements.html">| Supplements |</a></li>
-          <li><a href="../static/HTML/gymwear.html">| Gym Wear |</a></li>
-          <li><a href="../static/HTML/contactus.html">| Contact Us |</a></li>
+          <li><a href="supplements.html">| Supplements |</a></li>
+          <li><a href="gymwear.html">| Gym Wear |</a></li>
+          <li><a href="contactus.html">| Contact Us |</a></li>
         </ul>
       </div>
     </nav>
     </div>
-  <!-- Page Content -->
+<!-- Page Content -->
     <div id="content">
      <div class="container">
-
-        <div class="row">
-
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-12">
-
-                <!-- Blog Post -->
-
-                <!-- Title -->
-                <h1>Online|<span class="text-muted">Training</span></h1>
-
-                <!-- Author -->
-                <p class="lead" class="author">
-                    by <a class="author" href="contactus.html">Samuel Clusker</a>
-                </p>
-
-                <hr>
-
-                <!-- Preview Image -->
-                <img class="img-responsive" src="../static/images/onlinetraining.jpg" alt="">
-
-                <hr size="10">
-
-                <!-- Post Content -->
+      <div class="row">
+<!-- Blog Post Content Column -->
+       <div class="col-lg-12">
+<!-- Blog Post -->
+<!-- Title -->
+          <h1>Online|<span class="text-muted">Training</span></h1>
+<!-- Author -->
+            <p class="lead" class="author">
+               by <a class="author" href="contactus.html">Samuel Clusker</a>
+            </p>
+            <hr>
+<!-- Preview Image -->
+            <img class="img-responsive" src="../images/onlinetraining.jpg" alt="">
+              <hr size="10">
+<!-- Post Content -->
                 <p class="blogbody"><b><i>Online|Training</i></b> has been a feature of our company for almost a year now. But that is not
                 to say it has become a stale market for us. Oh no! We have looked at improving our training whenever we can 
                 and we admit no program is perfect, but we're damn near close. We strive to find something that makes us
@@ -98,12 +87,14 @@
                 you will receive an email from us within 24 hours of submission.</p>
                 <p class="blogbody">We look forward to hearing from you all as you follow us on our journey and maybe we can follow and help yours too!</p>
                 <br>
-                              </div>
         </div>
+      </div>
     </div>
-        <hr>
-              <div class="col-md-2">
-              </div>
+    <hr>
+<!-- A way of positioning the blog in the middle -->
+    <div class="col-md-2">
+      </div>
+<!-- FORM -->
                 <div class="col-md-8" class="well">
                   <h4>Sign Up Below or Just Leave Us A Comment.</h4>
                   <form action="" method="post">
@@ -117,8 +108,8 @@
                       </fieldset>
                       <fieldset class="form-group">
                         <label for="formGroupExampleInput3"> Would You Like To Sign Up For a Free Trial?</label><br>
-                        <input type="radio" name="yes" value="radio1" CHECKED onClick=0/> Yes<br>
-                        <input type="radio" name="no" value="radio2" onClick=0/> No
+                        <input type="radio" name="group1[]" value="radio1" CHECKED/> Yes<br>
+                        <input type="radio" name="group1[]" value="radio2"> No
                       </fieldset>
                     <div class="form-group">
                     <h4>Comment</h4>
@@ -131,7 +122,7 @@
               </div>
     </div> 
     <hr>
-<!-- Footer -->
+<!-- FOOTER -->
     <div id="footer">
         <footer>
           <div id="footer">
@@ -146,12 +137,12 @@
         </footer>
     </div>
 
-    <!-- jQuery -->
+<!-- jQuery -->
     <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
+<!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
   </div>
-</body>
+  </body>
 
 </html>
